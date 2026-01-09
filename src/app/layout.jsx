@@ -1,9 +1,10 @@
-import Navbar from "@/components/navbar/navbar";
+import Navbar from "@/layout/navbar/navbar";
 import "./globals.css";
+import { Footer } from "@/layout/footer/fotter";
 
 export const metadata = {
-  title: "Inacio Sant Dev",
-  description: "Desenvolvedor Full Stack",
+  title: "Inacio Sant - Portfólio",
+  description: "Desenvolvedor Full-Stack",
   author: "Inacio Sant",
   
 };
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

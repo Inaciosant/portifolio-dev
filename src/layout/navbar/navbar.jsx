@@ -9,10 +9,9 @@ import { BsList } from "react-icons/bs";
 
 const navbarlinks = [
   { name: "Home", href: "/" },
-  { name: "Sobre", href: "#about" },
-  { name: "Projetos", href: "#projects" },
-  { name: "Skills", href: "#skills" },
-  { name: "Contato", href: "#contact" },
+  { name: "Projetos", href: "/#projects" },
+  { name: "Sobre", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
 ];
 const ListMobile = ({ onClose }) => {
   return (
@@ -32,7 +31,7 @@ const ListMobile = ({ onClose }) => {
       </ul>
       <div className="flex flex-row justify-around items-center pt-4 border-t border-gray-200">
         <Link 
-          href="/documents/Inacio_CV.pdf" 
+          href="/documents/Curriculo.pdf" 
           target="_blank" 
           className="hover:scale-110 transition-transform duration-200"
         >
@@ -76,16 +75,16 @@ const Navbar = () => {
       <h3 className="text-slate-950  flex-row flex items-center-safe text-xl font-semibold">
         <MdArrowBackIosNew /> Inácio Sant / <MdArrowForwardIos />
       </h3>
-      <ul className="hidden flex-row md:flex justify-center-safe gap-6 text-[#2D3142] font-medium">
+      <ul className="hidden flex-row lg:flex justify-center-safe gap-6 text-[#2D3142] font-medium">
         {navbarlinks.map((link) => (
           <li key={link.name}>
             <Link href={link.href}>{link.name}</Link>
           </li>
         ))}
       </ul>
-      <div className="md:flex hidden flex-row items-center justify-center-safe gap-8">
+      <div className="lg:flex hidden flex-row items-center justify-center-safe gap-8">
         <Link
-          href="/documents/Inacio_CV.pdf"
+          href="/documents/Curriculo.pdf"
           target="_blank"
           className="bg-slate-950 text-white md:flex hidden  flex-row justify-center items-center-safe px-4 py-2 rounded-md hover:bg-slate-900 transition-colors duration-300"
         >
@@ -101,7 +100,7 @@ const Navbar = () => {
           <FaGithub className="md:ml-2 md:text-4xl text-2xl text-slate-950 hover:text-black transition-colors duration-300" />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/inaciosant/"
+          href="https://www.linkedin.com/in/inacio-santana/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -109,7 +108,7 @@ const Navbar = () => {
         </Link>
       </div>
       {/* haborgue */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button
           className="text-slate-950 focus:outline-none"
           onClick={isOpen ? handleClose : handleOpen}

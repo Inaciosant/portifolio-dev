@@ -1,4 +1,22 @@
-import { SiNextdotjs, SiTypescript, SiVite, SiReact, SiNodedotjs, SiFlutter, SiPython, SiGo, SiJavascript, SiTailwindcss, SiHtml5, SiCss3 } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiTypescript,
+  SiVite,
+  SiReact,
+  SiNodedotjs,
+  SiFlutter,
+  SiPython,
+  SiGo,
+  SiJavascript,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiMongodb,
+  SiExpress,
+  SiNestjs,
+  SiDocker,
+  SiGit,
+} from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
 export const stack = [
@@ -9,9 +27,13 @@ export const stack = [
   { name: "Node.js", Icon: SiNodedotjs, color: "#339933" },
   { name: "Flutter", Icon: SiFlutter, color: "#02569B" },
   { name: "Python", Icon: SiPython, color: "#3776AB" },
-  { name: "Go", Icon: SiGo, color: "#00ADD8" },
-  {name:"JavaScript", Icon: SiJavascript, color: "#F7DF1E"},
-  {name:"Tailwind CSS", Icon: SiTailwindcss, color: "#38B2AC"},
-  {name:"HTML5", Icon: SiHtml5, color: "#E34F26"},
-  {name:"CSS3", Icon: SiCss3, color: "#1572B6"},
+  { name: "JavaScript", Icon: SiJavascript, color: "#F7DF1E" },
+  { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38B2AC" },
+  { name: "HTML5", Icon: SiHtml5, color: "#E34F26" },
+  { name: "CSS3", Icon: SiCss3, color: "#1572B6" },
+  { name: "MongoDB", Icon: SiMongodb, color: "#47A248" },
+  { name: "Express.js", Icon: SiExpress, color: "#000000" },
+  { name: " Nest.js", Icon: SiNestjs, color: "#FF0000" },
+  { name: "Docker", Icon: SiDocker, color: "#2496ED" },
+  { name: "Git", Icon: SiGit, color: "#F05032" },
 ];
