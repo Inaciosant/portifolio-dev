@@ -72,4 +72,18 @@ export const projectsRepository = [
     stack: ["Flutter", "Dart", "SQLite"],
     repository: "https://github.com/PI-Fatec/App_Mobile2",
   },
+    {
+    name: "Calculadora em Vue ",
+    description: "Site de uma calculadora simples desenvolvido em Vue.js.",
+    url: "https://calculadora-em-vue.vercel.app/",
+    stack: ["Vue.js", "JavaScript", "HTML", "CSS"],
+    repository: "https://github.com/Inaciosant/Calculadora_em_Vue/",
+  },
+   {
+    name: "PrimeInventory ",
+    description: "Projeto Interdisciplinar desenvolvido para gerenciamento de estoque.",
+    url: null,
+    stack: ["React", "Vite",  "CSS", "Node.js", "Express.js", "mySQL"],
+    repository: "https://github.com/Inaciosant/Calculadora_em_Vue/tree/main",
+  },
 ];
