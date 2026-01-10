@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-slate-950 text-gray-400 py-6 ">
+    <footer className="w-full mt-auto bottom-0 bg-slate-950 text-gray-400 py-6 ">
         <div className="max-w-6xl mx-auto px-4 text-center">
             <p>&copy; {new Date().getFullYear()} npm init portifolio</p>
         </div>

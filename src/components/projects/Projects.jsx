@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { projectsRepository } from './repository/projects';
+import { projectsRepository } from '../../data/projects';
 import CardProjects from '@/components/ui/Card/CardProjects';
 import { FaArrowRight } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ export const Projects = () => {
         <h2 className="text-4xl font-bold mb-14 text-slate-900">Meus Projetos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl">
             {projects.map((project, index) => (
-                <CardProjects key={index} project={project} />
+                <CardProjects key={index} project={project}  />
             ))}
         </div>
         <Link

@@ -1,5 +1,6 @@
 export const projectsRepository = [
   {
+    id: 1,
     name: "Portifolio Website",
     description:
       "Meu site pessoal de portfólio para exibir meus projetos e habilidades como desenvolvedor.",
@@ -8,6 +9,7 @@ export const projectsRepository = [
     repository: "https://github.com/Inaciosant/portifolio-dev",
   },
   {
+    id: 2,
     name: "Eusei-AI",
     description:
       "Projeto para o  2 CodTech , onde eu e meu grupo desenvolvemos uma plataforma Integrada com uma IA focada em educação.",
@@ -24,6 +26,7 @@ export const projectsRepository = [
     repository: "https://github.com/Inaciosant/Euseiaifront",
   },
   {
+    id: 3,
     name: "AgroSense",
     description:
       "Projeto Interdisciplinar desenvolvido para monitoramento Da umidade do solo utilizando IoT e enviando via api para uma plataforma web e um app mobile.",
@@ -40,6 +43,7 @@ export const projectsRepository = [
     repository: "https://github.com/FatecFranca/DSM-P4-G02-2025-1",
   },
   {
+    id: 4,
     name: "Verify",
     description:
       "Projeto Interdisciplinar desenvolvido  para verificar se a mensagem é um spam ou não, utilizando Machine Learning.",
@@ -58,6 +62,7 @@ export const projectsRepository = [
     repository: "https://github.com/FatecFranca/DSM-P5-G02-2025-2",
   },
   {
+    id: 5,
     name: "AppLancer",
     description:
       "Bot desenvolvido para automatizar o processo de subir aplicativos nas plataformas Google Play Store e Apple App Store.",
@@ -66,6 +71,7 @@ export const projectsRepository = [
     repository: "https://github.com/Inaciosant/bot-subirapp",
   },
   {
+    id: 6,
     name: "Finance App",
     description: "Aplicativo financeiro para gerenciamento de despesas.",
     url: null,
@@ -73,6 +79,7 @@ export const projectsRepository = [
     repository: "https://github.com/PI-Fatec/App_Mobile2",
   },
     {
+    id: 7,
     name: "Calculadora em Vue ",
     description: "Site de uma calculadora simples desenvolvido em Vue.js.",
     url: "https://calculadora-em-vue.vercel.app/",
@@ -80,6 +87,7 @@ export const projectsRepository = [
     repository: "https://github.com/Inaciosant/Calculadora_em_Vue/",
   },
    {
+    id: 8,
     name: "PrimeInventory ",
     description: "Projeto Interdisciplinar desenvolvido para gerenciamento de estoque.",
     url: null,

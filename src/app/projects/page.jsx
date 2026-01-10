@@ -1,4 +1,4 @@
-import { projectsRepository } from "@/components/projects/repository/projects";
+import { projectsRepository } from "@/data/projects";
 import CardProjects from "@/components/ui/Card/CardProjects";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Suspense } from "react";
