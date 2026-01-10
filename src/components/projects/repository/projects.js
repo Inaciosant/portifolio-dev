@@ -2,7 +2,7 @@ export const projectsRepository = [
   {
     name: "Portifolio Website",
     description:
-      "A personal portfolio website to showcase my projects and skills.",
+      "Meu site pessoal de portfólio para exibir meus projetos e habilidades como desenvolvedor.",
     url: " ",
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     repository: "https://github.com/Inaciosant/portifolio-dev",
