@@ -31,7 +31,7 @@ export default function PageDetailsProjects({ params }) {
         </div>
 
         <h2 className="text-4xl font-bold text-green-400 mb-6">
-            $ cat {project.name}.md
+            $ {project.name}.md
         </h2>
 
         <p className="text-gray-300 mb-8 text-lg leading-relaxed border-l-2 border-green-900 pl-4">
