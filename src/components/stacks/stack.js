@@ -25,7 +25,6 @@ export const stack = [
   { name: "Vite", Icon: SiVite, color: "#646CFF" },
   { name: "React", Icon: SiReact, color: "#61DAFB" },
   { name: "Node.js", Icon: SiNodedotjs, color: "#339933" },
-  { name: "Flutter", Icon: SiFlutter, color: "#02569B" },
   { name: "Python", Icon: SiPython, color: "#3776AB" },
   { name: "JavaScript", Icon: SiJavascript, color: "#F7DF1E" },
   { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38B2AC" },
@@ -33,7 +32,7 @@ export const stack = [
   { name: "CSS3", Icon: SiCss3, color: "#1572B6" },
   { name: "MongoDB", Icon: SiMongodb, color: "#47A248" },
   { name: "Express.js", Icon: SiExpress, color: "#000000" },
-  { name: " Nest.js", Icon: SiNestjs, color: "#FF0000" },
+  { name: "Nest.js", Icon: SiNestjs, color: "#FF0000" },
   { name: "Docker", Icon: SiDocker, color: "#2496ED" },
   { name: "Git", Icon: SiGit, color: "#F05032" },
 ];
