@@ -94,4 +94,12 @@ export const projectsRepository = [
     stack: ["React", "Vite",  "CSS", "Node.js", "Express.js", "mySQL"],
     repository: "https://github.com/Inaciosant/Calculadora_em_Vue/tree/main",
   },
+    {
+    id: 9,
+    name: "Book T.I ",
+    description: "Projeto Realizado para estudos onde foi simulado um e-commerce de livros de tecnologia, usando api publica do https://api.itbook.store/",
+    url: "https://book-ti-delta.vercel.app/",
+    stack: ["React", "Next.js",  "Tailwind CSS", "Zustand", "Vercel", "TanStack Query"],
+    repository: "https://github.com/Inaciosant/book-ti",
+  },
 ];
